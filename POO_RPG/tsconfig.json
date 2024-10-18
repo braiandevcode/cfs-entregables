@@ -3,7 +3,7 @@
     "target": "es2016",
     "module": "ESNext",
     "rootDir": "../POO_RPG",
-    "outDir": "./POO/dist",
+    "outDir": "./POO_RPG/dist",
     "removeComments": true,
     "noEmitOnError": false,
     "esModuleInterop": true,
