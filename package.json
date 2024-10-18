@@ -1,14 +1,17 @@
 {
   "name": "repo-entregables",
   "version": "1.0.0",
-  "description": "**API REST**\r - Primer ejercicio de peticiones AJAX trabajando con la api de [PokéAPI](https://pokeapi.co/api/v2/)",
+  "description": "Ejercicios practicos carrera full stack segundo cuatrimestre",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node POO/dist/main.js"
+    "dev": "tsc POO/main.ts --lib es2023,dom --outDir ./POO/dist && node ./POO/dist/main.js",
+    "dev2": "tsc POO_RPG/main.ts --lib es2023,dom --outDir ./POO_RPG/dist && node ./POO_RPG/dist/main.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "picocolors": "^1.1.1"
+  }
 }
