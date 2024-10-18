@@ -1,5 +1,6 @@
 import { RegistroAutomotor } from "./ts/RegistroAutomotor.js";
 
+
 // PRUEBAS
 const registro= new RegistroAutomotor(); //SE INSTANCIA CLASE DE REGISTRO
 
